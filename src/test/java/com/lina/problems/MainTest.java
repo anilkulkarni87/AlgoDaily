@@ -29,4 +29,9 @@ class MainTest {
     void missingNumbers() {
         System.out.println(Main.missingNumbers(new int[]{1,2,4,5,7}));
     }
+
+    @Test
+    void isAnagram() {
+        Assertions.assertTrue(Main.isAnagram("abC","Cab"));
+    }
 }

@@ -6,4 +6,4 @@ build\
 /.gradle/
 /build/
 /build/classes/java/main/
-/build/classes/java/test/
+/build/classes/java/test/.idea\
